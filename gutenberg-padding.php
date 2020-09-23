@@ -2,13 +2,13 @@
 
 /**
  * Plugin Name: Gutenberg Padding (Demo)
- * Plugin URI: mailto:mariovhamann@gmail.com
+ * Plugin URI: https://github.com/mariohamann/gutenberg-padding
  * Version: 1.0.0
- * Description: Experiment for padding in select mode
+ * Description: Experiment for padding in select mode (See discussion on <a href="https://github.com/WordPress/gutenberg/issues/25133#issuecomment-697156586" target="_blank">GitHub</a>)
  * License: GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Author: mariohamann
- * Author URI: mailto:mariovhamann@gmail.com
+ * Author URI: https://github.com/mariohamann
  */
 
 namespace MarioHamann\GutenbergPadding;
