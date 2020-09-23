@@ -2,7 +2,6 @@
     .wp-block {
         outline: grey 1px dashed;
         padding: 1rem !important;
-        overflow-anchor: auto;
 
         &:hover {
             outline: grey 1px solid;
@@ -43,6 +42,10 @@
             }
         }
     }
+}
+
+.wp-block.is-selected {
+    overflow-anchor: auto;
 }
 
 .wp-block {

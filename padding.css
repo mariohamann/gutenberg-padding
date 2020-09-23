@@ -1,7 +1,6 @@
 .block-editor-writing-flow.is-navigate-mode .wp-block {
   outline: grey 1px dashed;
   padding: 1rem !important;
-  overflow-anchor: auto;
 }
 
 .block-editor-writing-flow.is-navigate-mode .wp-block:hover {
@@ -29,6 +28,10 @@
 
 .block-editor-writing-flow.is-navigate-mode .wp-block.is-selected:before, .block-editor-writing-flow.is-navigate-mode .wp-block.is-selected:hover:before, .block-editor-writing-flow.is-navigate-mode .wp-block.is-selected:focus:before {
   display: none;
+}
+
+.wp-block.is-selected {
+  overflow-anchor: auto;
 }
 
 .wp-block {
